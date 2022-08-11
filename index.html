@@ -11,21 +11,32 @@
     <title>Frontend Mentor | Product preview card component</title>
 </head>
 <body>
-<div class="centerbox">
-    <img src="images/image-product-desktop.jpg"></img>
-    <div class="insidebox">
-        <p>P E R F U M E</p>
-        <h1 class="test">Gabrielle Essence Eau De Parfum</h1>
+<section>
+    <div class="mainbox">
+        <div class="centerbox">
+            <img alt="" class="productImage" src="images/image-product-desktop.jpg"></img>
+            <div class="insidebox">
+                <div class="textbox">
+                    <p class="title">P E R F U M E</p>
+                    <h1 class="test">Gabrielle Essence Eau De Parfum</h1>
 
-        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge,
-            Perfumer-Creator for the House of CHANEL.</p>
+                    <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+                        Perfumer-Creator for the House of CHANEL.</p>
 
-        <h3 class="pricetag">$149.99</h3>
-        <p class="">$169.99</p>
+                    <div class="priceTags parentDiv">
+                        <p class="test inline-block-child pricetag">$149.99</p>
+                        <p class="inline-block-child oldprice">$169.99</p>
+                    </div>
 
-        <button type="button">Add to Cart</button>
+                    <button type="button">
+                        <img alt="shopping cart" src="images/icon-cart.svg"></img>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+</section>
 
 <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
